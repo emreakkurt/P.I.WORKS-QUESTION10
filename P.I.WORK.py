@@ -1,11 +1,8 @@
-def reverse_string(input_string):
-    # Girdi stringini boşluk karakterine göre kelimelere ayır
-    words_list = input_string.split()
-    
-    # Kelime listesini tersine çevir
+def reverse_string(input_string):    
+    words_list = input_string.split()    
+ 
     words_list.reverse()
     
-    # Tersine çevrilmiş kelime listesini aralarında boşluk karakteri olan bir stringe dönüştür
     output_string = ' '.join(words_list)
     
     return output_string
